@@ -1,0 +1,10 @@
+sources:
+  - CancelBuildExample
+templates:
+  - Templates
+output:
+  path: CodeGenerated
+  link:
+    project: CancelBuildExample.xcodeproj
+    target: CancelBuildExampleTests
+    group: CodeGenerated

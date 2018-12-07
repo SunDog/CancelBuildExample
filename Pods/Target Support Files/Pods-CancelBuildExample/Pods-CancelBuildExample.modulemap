@@ -1,0 +1,6 @@
+framework module Pods_CancelBuildExample {
+  umbrella header "Pods-CancelBuildExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
