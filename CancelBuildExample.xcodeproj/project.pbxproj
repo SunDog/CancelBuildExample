@@ -10,8 +10,6 @@
 		19291E59B285B7169630DB42 /* Pods_CancelBuildExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E5C4CF8901299A4D5EA373 /* Pods_CancelBuildExampleUITests.framework */; };
 		7BBF20AB52882311463E18CB /* Pods_CancelBuildExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F6AED5D6ECEC595E0FF0C5 /* Pods_CancelBuildExampleTests.framework */; };
 		91B20965B08DADA7266FF37F /* Pods_CancelBuildExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F4A38E62A9879D186059C /* Pods_CancelBuildExample.framework */; };
-		BF_169501021520 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_339207845556 /* AutoMockable.generated.swift */; };
-		BF_737281787566 /* ModelFactory.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_539341217285 /* ModelFactory.generated.swift */; };
 		E67F658421BA72C700E11EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67F658321BA72C700E11EBB /* AppDelegate.swift */; };
 		E67F658621BA72C700E11EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67F658521BA72C700E11EBB /* ViewController.swift */; };
 		E67F658921BA72C700E11EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67F658721BA72C700E11EBB /* Main.storyboard */; };
@@ -61,8 +59,6 @@
 		E67F659F21BA72C700E11EBB /* CancelBuildExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancelBuildExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67F65A321BA72C800E11EBB /* CancelBuildExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBuildExampleUITests.swift; sourceTree = "<group>"; };
 		E67F65A521BA72C800E11EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FR_339207845556 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = AutoMockable.generated.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
-		FR_539341217285 /* ModelFactory.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = ModelFactory.generated.swift; path = ModelFactory.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +121,6 @@
 				E67F658121BA72C700E11EBB /* Products */,
 				960075DADCD910AA61CA88D3 /* Pods */,
 				C50BFBA8571C969185184031 /* Frameworks */,
-				G_2736072206534 /* CodeGenerated */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,16 +163,6 @@
 				E67F65A521BA72C800E11EBB /* Info.plist */,
 			);
 			path = CancelBuildExampleUITests;
-			sourceTree = "<group>";
-		};
-		G_2736072206534 /* CodeGenerated */ = {
-			isa = PBXGroup;
-			children = (
-				FR_339207845556 /* AutoMockable.generated.swift */,
-				FR_539341217285 /* ModelFactory.generated.swift */,
-			);
-			name = CodeGenerated;
-			path = CodeGenerated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,8 +383,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67F659921BA72C700E11EBB /* CancelBuildExampleTests.swift in Sources */,
-				BF_169501021520 /* AutoMockable.generated.swift in Sources */,
-				BF_737281787566 /* ModelFactory.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
